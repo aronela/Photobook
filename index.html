@@ -1,10 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Photobook</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="./manifest.json">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Photobook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="header text-center">
+    <h1 class="header-title pt-5">CREATE YOUR OWN PHOTOSTORY</h1>
+    <p class="header-subtitle">Make your photobook online</p>
+    <button type="button" class="btn btn-outline-dark my-5">MAKE YOUR PHOTOBOOK</button>
+</div>
+
+<div class="section1 text-center pb-5">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-6 col-md">
+                <img src="img/section1-icon1.png">
+                <p class="section1-text pt-3">Download <br> photos</p>
+            </div>
+            <div class="col-6 col-md">
+                <img src="img/section1-icon2.png">
+                <p class="section1-text pt-3">Design your <br> photobook</p>
+            </div>
+            <div class="col-6 col-md">
+                <img src="img/section1-icon3.png">
+                <p class="section1-text pt-3">Pay <br> for service</p>
+            </div>
+            <div class="col-6 col-md">
+                <img src="img/section1-icon4.png">
+                <p class="section1-text pt-3">Get your <br> photobook</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section2 text-center">
+    <div class="container">
+        <h2 class="section2-title py-5">ADVANTAGE</h2>
+        <div class="row">
+            <div class="col-md">
+                <div class="section2-icon1">
+                    <img src="img/photobook-icon1.png" class="pb-4">
+                    <div class="section2-text pb-5">
+                        <h3>Import photos <br> from your social network</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            modi tempora.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="section2-icon2">
+                    <img src="img/photobook-icon2.png" class="pb-4">
+                    <div class="section2-text pb-5">
+                        <h3>Photo editing</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            modi tempora.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="section2-icon3">
+                    <img src="img/photobook-icon3.png" class="pb-4">
+                    <div class="section2-text pb-5">
+                        <h3>Templates</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            modi
+                            tempora.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn section2-button mb-5">MAKE YOUR PHOTOBOOK</button>
+    </div>
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>

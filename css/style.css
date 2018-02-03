@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+body {
+  font-family: Roboto, Arial, sans-serif; }
+
+.header {
+  background-image: url(../img/photobook-cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 50px 0 250px; }
+
+h1.header-title {
+  font-weight: 300; }
+
+.header-subtitle {
+  font-size: 24px; }
+
+.section1-text {
+  font-weight: 500; }
+
+.section2 {
+  background-color: #f3f0e7; }
+
+.section2-title {
+  font-weight: 300; }
+
+.section2-button {
+  background-color: #e11a27;
+  color: white;
+  font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
